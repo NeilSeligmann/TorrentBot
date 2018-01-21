@@ -1,0 +1,11 @@
+{
+  "name": "TorrentBot_TPB",
+  "version": "1.0.0",
+  "description": "The Pirate Bay engine for TorrentBot",
+  "main": "engine.js",
+  "author": "muzako",
+  "license": "ISC",
+  "dependencies": {
+    "thepiratebay": "^1.3.3"
+  }
+}

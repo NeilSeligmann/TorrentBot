@@ -1,0 +1,12 @@
+{
+	"name": "The Pirate Bay",
+	"description": "Searches The Pirate Bay for torrents.",
+	"version": "1.0.0",
+	"author": "Neil Seligmann",
+	"url": "",
+	"engine":{
+		"hasDescription": false,
+		"hasTorrentDownload": false,
+		"hasMagnet": true
+	}
+}

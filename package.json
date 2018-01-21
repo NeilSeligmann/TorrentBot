@@ -1,0 +1,25 @@
+{
+  "name": "TorrentBot",
+  "version": "1.0.0",
+  "description": "Automatically search & download torrents as soon as they are available.",
+  "main": "index.js",
+  "author": "muzako",
+  "license": "ISC",
+  "dependencies": {
+    "Promise": "^1.0.5",
+    "axios": "^0.15.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "futures": ">=2.1.0",
+    "jsonfile": "^2.4.0",
+    "knex": "^0.12.9",
+    "node-deluge": "^1.0.2",
+    "nyaa-api-pt": "^1.0.9",
+    "nyaapi": "^2.0.4",
+    "promise": "^7.3.1",
+    "promises": "^0.2.5",
+    "sqlite3": "^3.1.13",
+    "thepiratebay": "^1.4.6"
+  }
+}

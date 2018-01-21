@@ -1,0 +1,10 @@
+{
+	"web_ui":{
+		"plugin": "web_ui",
+		"enabled": true
+	},
+	"series":{
+		"plugin": "series",
+		"enabled": true
+	}
+}

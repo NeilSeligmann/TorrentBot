@@ -1,0 +1,20 @@
+{
+	"knex":{
+		"client": "sqlite3",
+		"connection": {
+			"filename": "../config/database.sqlite"
+		},
+		"useNullAsDefault": true
+	},
+	"schemas":{
+		"series": {
+			"table": "series",
+			"columns":{
+				"name": "name",
+				"season": "season",
+				"episode": "episode",
+				"format": "format"
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\engines",
+    "\\engines\\nyaa_se",
+    "\\engines\\nyaa_se\\node_modules",
+    "\\engines\\nyaa_se\\node_modules\\nyaa-api-pt",
+    "\\engines\\nyaa_se\\node_modules\\nyaa-api-pt\\examples"
+  ],
+  "SelectedNode": "\\engines\\nyaa_se\\engine.js",
+  "PreviewInSolutionExplorer": false
+}

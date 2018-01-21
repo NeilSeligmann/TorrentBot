@@ -1,0 +1,11 @@
+{
+  "name": "TorrentBot_NyaaSe",
+  "version": "1.0.0",
+  "description": "Nyaa.se engine for TorrentBot",
+  "main": "engine.js",
+  "author": "muzako",
+  "license": "ISC",
+  "dependencies": {
+    "nyaa-api-pt": "^1.0.9"
+  }
+}

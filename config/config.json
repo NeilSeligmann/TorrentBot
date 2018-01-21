@@ -1,0 +1,14 @@
+{
+	"errorLog": "errors.log",
+	"threads": 5,
+	"messages":{
+		"torrent":{
+			"found": "Torrent %NAME% found.",
+			"added": "Torrent %NAME% was added to %CLIENT%.",
+			"downloaded": "Torrent %NAME% was downloaded."
+		},
+		"error":{
+			"unhandled": "Unhandled Exception Error."
+		}
+	}
+}

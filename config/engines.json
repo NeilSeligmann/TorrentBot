@@ -1,0 +1,10 @@
+{
+	"tpb": {
+		"engine": "tpb",
+		"enabled": true
+	},
+	"nyaa_se": {
+		"engine": "nyaa",
+		"enabled": true
+	}
+}

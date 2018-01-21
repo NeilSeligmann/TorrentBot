@@ -1,0 +1,147 @@
+html{
+    height: 100%;
+	width: 100%;
+
+	font-family: Verdana,Geneva,sans-serif; 
+}
+
+body{
+	text-align: center;
+    vertical-align: middle;
+    height: 98%;
+    width: 99%;
+
+    /* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+}
+
+#search_holder{
+    width: 100%;
+    margin-top: -85px;
+}
+
+.sb-search-input{
+	width: 80%;
+	min-width: 300px;
+	font: inherit;
+    font-size: 40px;
+    
+    border: 0;
+    text-align: center;
+    color: #6f6e6e;
+
+    -moz-box-shadow:    0 2px 4px 2px #ccc;
+ 	webkit-box-shadow: 	0 2px 4px 2px #ccc;
+ 	box-shadow: 		0 2px 4px 2px #ccc;
+
+    border-radius: 2px;
+}
+
+/*.shadow{
+	-moz-box-shadow:    3px 3px 5px 6px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	box-shadow:         3px 3px 5px 6px #ccc;
+}*/
+
+a {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: black;
+}
+a:active {
+	color: black;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+#results{
+	width: 90%;
+    height: calc(100% - 75px);
+    position: absolute;
+    top: 75px;
+    left: 5%;
+    display: none;
+}
+
+.torrent{
+	width: 100%;
+	/*border: 1px solid lightgrey;*/
+	margin-bottom: 7px;
+	font-family: inherit;
+	font-size: 20px;
+	text-align: left;
+
+	-moz-box-shadow:    0 0 5px 1px #ccc;
+ 	webkit-box-shadow: 	0 0 5px 1px #ccc;
+ 	box-shadow: 		0 0 5px 1px #ccc;
+ 	border-radius: 		1px;
+}
+
+.torrent_category{
+	width: 100%;
+	width: 100%;
+    color: grey;
+    font-size: 16px;
+}
+
+.torrent_footer{
+	width: 100%;
+	height: 20px;
+	/*background-color: rgba(0,0,0,0.1);*/
+
+	/*-moz-box-shadow:    inset 0 4px 12px -6px #000000;
+ 	webkit-box-shadow: 	inset 0 4px 12px -6px #000000;
+ 	box-shadow: 		inset 0 4px 12px -6px #000000;*/
+ 	border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.torrent_footer i{
+	cursor: pointer;
+    margin-right: 3px;
+    margin-left: 2px;
+}
+
+.torrent_info{
+	float: right;
+	margin-right: 3px;
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.torrent_engine{
+	font-size: 12px;
+	line-height: 2.2;
+    font-weight: bolder;
+}
+
+.seeders{
+	color: green;
+}
+
+.leechers{
+	color: red;
+	margin-right: 10px;
+}

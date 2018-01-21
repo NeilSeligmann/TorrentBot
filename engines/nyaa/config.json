@@ -1,0 +1,77 @@
+{
+	"name": "Nyaa",
+	"description": "Searches Nyaa for torrents.",
+	"version": "1.0.0",
+	"author": "Neil Seligmann",
+	"url": "",
+	"engine":{
+		"hasDescription": false,
+		"hasTorrentDownload": true,
+		"hasMagnet": false,
+		"parameters":{
+			"filter":{
+				"title": "Uploader Status",
+				"type": "array",
+				"values":{
+				}
+			},
+			"category":{
+				"title": "Category",
+				"type": "array",
+				"values":{
+					"anime":{
+						"title": "Anime",
+						"values": {
+							"raw": 						"raw",
+							"english_translated":		"English Translated",
+							"non_english_translated":	"Non-English Translated",
+							"music_video":				"Music Video"
+						}
+					},
+					"literature":{
+						"title": "Literature",
+						"values": {
+							"raw": 						"raw",
+							"english_translated":		"English Translated",
+							"non_english_translated":	"Non-English Translated"
+						}
+					},
+					"audio":{
+						"title": "Audio",
+						"values": {
+							"lossless": 	"Lossless",
+							"lossy":		"Lossy"
+						}
+					},
+					"pictures":{
+						"title": "Pictures",
+						"values": {
+							"photos": 		"Photos",
+							"graphics":		"Graphics"
+						}
+					},
+					"live_action":{
+						"title": "Live Action",
+						"values": {
+							"raw": 						"raw",
+							"english_translated":		"English Translated",
+							"non_english_translated":	"Non-English Translated",
+							"idol_promotional_video":	"Idol Promotional Video"
+						}
+					},
+					"software":{
+						"title": "Software",
+						"values": {
+							"applications": 	"Applications",
+							"games":			"Games"
+						}
+					}
+				}
+			},
+			"user":{
+				"title": "Uploader's ID",
+				"type": "integer"
+			}
+		}
+	}
+}
